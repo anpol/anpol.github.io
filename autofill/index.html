@@ -126,13 +126,18 @@
   <em>Beware what you post, all the forms send data to https://example.com.</em>
   </p>
 
-  <h3>Profile Autofill</h3>
+  <hr>
+  <h3>Profile Autofill Scroll Anchoring Test</h3>
 
 <form name="addr1.1" id="form1" action="https://example.com/" method="post">
-  Name: <input type="text" name="name" placeholder="Name"><br>
-  Address: <input type="text" name="address" placeholder="Address"><br>
-  City: <input type="text" name="city" placeholder="City"><br>
-  State: <select name="state">
+  Name:<br>
+  <input type="text" name="name" placeholder="Name"><br>
+  Address:<br>
+  <input type="text" name="address" placeholder="Address"><br>
+  City:<br>
+  <input type="text" name="city" placeholder="City"><br>
+  State:<br>
+  <select name="state">
     <option value="CA">CA</option>
     <option value="MA">MA</option>
     <option value="NY">NY</option>
@@ -142,12 +147,17 @@
     <option value="IL">IL</option>
     <option value="DC">DC</option>
   </select> <br>
-  Zip: <input name="zip" id="form_zip" placeholder="Zip"> <br>
-  Country: <input name="country" id="form_country" placeholder="Country"> <br>
-  Company: <input name="company" id="form_company" placeholder="company"> <br>
-  Email: <input name="email" id="form_email" placeholder="Email"> <br>
+  Zip:<br>
+  <input name="zip" id="form_zip" placeholder="Zip"> <br>
+  Country:<br>
+  <input name="country" id="form_country" placeholder="Country"> <br>
+  Company:<br>
+  <input name="company" id="form_company" placeholder="company"> <br>
+  Email:<br>
+  <input name="email" id="form_email" placeholder="Email"> <br>
   <div id="form_phone_container" style="display: none;">
-    Phone: <input name="phone" id="form_phone" placeholder="Phone"> <br>
+    Phone:<br>
+  <input name="phone" id="form_phone" placeholder="Phone"> <br>
   </div>
   <input type="reset" value="Reset">
   <input type="submit" value="Submit" id="profile_submit">
@@ -167,5 +177,7 @@
 <p style="font-size: smaller">
 This page was forked from <a href="https://rsolomakhin.github.io/autofill/">https://rsolomakhin.github.io/autofill/</a>
 </p>
+
+<div id="expander" style="margin-bottom: 900px"></div>
 
 </body></html>
